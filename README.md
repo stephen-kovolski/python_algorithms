@@ -14,3 +14,10 @@ All algorithms go a step or two further.  esch one will have a command line inte
 This algorithm asks for me to convert a number into a string.
 it takes input from the user and asks whether the user wants to conver a number into a string or a string into a number.  If the user doesnt input the correct choice, the program asks the user to please stick to only choosing a string or integer to convert. 
 
+
+12/8/21
+This algorithm asks to take two inegers and add them.  Relatively easy.
+Turned it into a CLI but without a function.
+I was successful and needed to turn the answers given from strings to integers in order to get the correct answer. 
+Lastely I used a function with the CLI and called the function in order to make this algorithm work. 
+Completed this algortim in 2 different ways.
