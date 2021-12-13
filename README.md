@@ -25,3 +25,4 @@ Completed this algortim in 2 different ways.
 
 12/9/21
 This algo asks to verify an atm pin.  It states that an atm either has 4 numbers or 6 numbers for a pin.  I verified if the lenght of the pin is 4 or 6 digits long. 
+
