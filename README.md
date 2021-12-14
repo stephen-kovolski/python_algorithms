@@ -21,3 +21,8 @@ Turned it into a CLI but without a function.
 I was successful and needed to turn the answers given from strings to integers in order to get the correct answer. 
 Lastely I used a function with the CLI and called the function in order to make this algorithm work. 
 Completed this algortim in 2 different ways.
+
+
+12/9/21
+This algo asks to verify an atm pin.  It states that an atm either has 4 numbers or 6 numbers for a pin.  I verified if the lenght of the pin is 4 or 6 digits long. 
+
