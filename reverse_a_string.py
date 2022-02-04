@@ -1,14 +1,17 @@
-#Reverse the provided string.
-#You may need to turn the string into an array before you can reverse it.
 
-#"hello"
-#"howdy"
-#"greetings from earth"
+greeting = input('Hello!  What would you like reveresed?\n')
+list = greeting[::-1]
+print(list)
 
-from audioop import reverse
+closing = input("would you like to try again?\n")
 
-
-list = 'howdy'
-print(list[::-1])
+if closing == 'yes':
+    again = input("Great! What would you like reversed?\n")
+    list_2 = again[::-1]
+    print(list_2)
+    closing
+    
+else:
+    print("Thanks for playing!")
 
     
