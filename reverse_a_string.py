@@ -3,8 +3,11 @@ greeting = input('Hello!  What would you like reveresed?\n')
 list = greeting[::-1]
 print(list)
 
+closing_stmt = input("would you like to try again?\n")
+
+
 def closing():
-    closing_stmt = input("would you like to try again?\n")
+    closing_stmt
 
 
 def play():
@@ -15,7 +18,7 @@ def play():
 
 
 
-if closing == 'yes':
+if closing_stmt == 'yes':
     play()    
 else:
     print("Thanks for playing!")
