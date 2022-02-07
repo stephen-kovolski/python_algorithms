@@ -5,17 +5,11 @@ print(list)
 
 closing_stmt = input("would you like to try again?\n")
 
-
-def closing():
-    closing_stmt
-
-
 def play():
     again = input("Great! What would you like reversed?\n")
     list_2 = again[::-1]
     print(list_2)
-    closing()
-
+    print(closing_stmt)
 
 
 if closing_stmt == 'yes':
