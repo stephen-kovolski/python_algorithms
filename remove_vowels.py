@@ -1,6 +1,5 @@
 
 import re
-from tkinter import E
 
 comment_one = ["this is the comment"]
 vowels = {
@@ -10,10 +9,9 @@ vowels = {
     'O': 'o',
     'U': 'u'
 }
-new_comment = ""
 
-for vowels in comment_one:
-    comment_one.remove(vowels)
-    print(comment_one)
-    print(vowels)
+for letters in comment_one:
+    for key in vowels:
+        new_comment = letters.remove(key)
+        print(new_comment)
 
