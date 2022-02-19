@@ -5,7 +5,8 @@
 
 def frankenSplice(arr1, arr2, n):
     for i in arr1:
-         arr2.splice(arr1[i][n])
-    return arr2
-
+        print(i)
+    for j in arr2:
+        print(j)
+    print(arr2.splice(arr1[n:]))
 frankenSplice([1, 2, 3], [4, 5, 6], 1)
