@@ -4,9 +4,8 @@
 #Return the resulting array. The input arrays should remain the same after the function runs.
 
 def frankenSplice(arr1, arr2, n):
-    arr1[:n] = arr2
+    arr1[n:n] = arr2
     print(arr1)
-    print(arr2)
 
 
 
