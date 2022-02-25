@@ -5,10 +5,13 @@
 largest_num = []
 
 def largestOfFour(arr): 
+    print(arr[1])
     for i in arr:
-        
+        print("idk")
         for j in arr:
-            print(j)
+            print(i[j])
+        
+
 
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
