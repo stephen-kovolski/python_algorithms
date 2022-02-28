@@ -9,7 +9,7 @@ def largestOfFour(arr):
     for i in arr:
         print("idk")
         for j in arr:
-            print(i,j)
+            print(i, 'i', j, 'j')
         
 
 
