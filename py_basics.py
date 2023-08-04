@@ -11,10 +11,10 @@ potato = 1.5
 pepper = 1
 
 
-def my_function(num1, num2):
-  input("welcome to Felicia's Fruits! Here is what we have per pound. What would you like?\n banana .5 lb,\n orange 1 lb,\n blueberries 2 lb,\n strawberries 2 lb,\n peaches 1 lb,\n carrot 1 lb,\n garlic .5 lb,\n onion 1 lb,\n potato 1.5 lb,\n pepper 1 lb")
 
-my_function(5, 10)
+input("welcome to Felicia's Fruits! Here is what we have and the price per pound. What would you like?\n banana .5 lb,\n orange 1 lb,\n blueberries 2 lb,\n strawberries 2 lb,\n peaches 1 lb,\n carrot 1 lb,\n garlic .5 lb,\n onion 1 lb,\n potato 1.5 lb,\n pepper 1 lb\n")
+
+
 
 
 
