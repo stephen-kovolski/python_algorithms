@@ -12,6 +12,10 @@ vowels = {
 
 for letters in comment_one:
     for key in vowels:
+        new_comment = ""
+        print(letters)
+        print(key)
         new_comment = letters.remove(key)
         print(new_comment)
+
 

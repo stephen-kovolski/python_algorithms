@@ -1,8 +1,11 @@
 def main():
     while True:
-        a = input('What is the answer to the Great Question of Life, the Universe and Everything?\n')
-        int(a)
-        print(a)
-        break
-
+        try:
+            a = int(input('What is the answer to the Great Question of Life, the Universe and Everything?\n'))
+            if a == 42:
+                print("Yes")
+                break
+                
+        except ValueError:
+            print("not correct")
 main()
